@@ -26,7 +26,7 @@ namespace ToDoApi.Persistence.Context
 
                 };
 
-                var result = userManager.CreateAsync(user, "123456").Result;
+                var result = userManager.CreateAsync(user, "pwd123").Result;
             }
         }
     }
